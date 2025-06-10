@@ -1,0 +1,20 @@
+<?php
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use Beauty\Jobs\AbstractJob;
+
+class {{ class }} extends AbstractJob
+{
+    public function __construct(
+        // data,
+    )
+    {
+    }
+
+    public function handle(): void
+    {
+
+    }
+}

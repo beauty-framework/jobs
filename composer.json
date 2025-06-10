@@ -1,0 +1,29 @@
+{
+  "name": "beauty-framework/jobs",
+  "type": "library",
+  "description": "Beauty Jobs",
+  "keywords": ["beauty", "jobs"],
+  "license": "MIT",
+  "authors": [],
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.1",
+    "spiral/roadrunner-jobs": "^4.6",
+    "opis/closure": "^4.3",
+    "beauty-framework/cli": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Beauty\\Jobs\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.3@dev"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Beauty\\Jobs\\Tests\\": "tests/"
+    }
+  }
+}
