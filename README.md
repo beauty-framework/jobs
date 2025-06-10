@@ -21,7 +21,7 @@ composer require beauty-framework/jobs
 
 ---
 
-## ⚖️ Requirements
+## Requirements
 
 * RoadRunner installed and configured
 * jobs plugin configured in `.rr.yaml`
